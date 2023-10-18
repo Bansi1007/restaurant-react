@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import wallpaper from '../../assets/image/pizza_logo.png'
 
 const menuItems = [
   {
@@ -7,6 +8,7 @@ const menuItems = [
     name: 'Arakas Latheros',
     description: 'Greek Peas with Tomato and Dill.',
     price: '$19.99',
+   
   },
   {
     id: 2,
@@ -70,9 +72,10 @@ function Menu() {
   return (
     <div className='menu-container'>
       <h2>Our Specialties</h2>
-      <div className='menu-items'>
+      <div className='menu-items' >
         {menuItems.map((item) => (
-          <div key={item.id} className='menu-item'>
+          <div key={item.id} className='menu-item'  >
+           
             <h3>{item.name}</h3>
             <p>{item.description}</p>
             <p className='price'>{item.price}</p>
@@ -82,5 +85,6 @@ function Menu() {
     </div>
   );
 }
+
 
 export default Menu;

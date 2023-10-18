@@ -1,0 +1,17 @@
+/* About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  h2 {
+    color: #600d14; /* Adjust the color to match your brand */
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  

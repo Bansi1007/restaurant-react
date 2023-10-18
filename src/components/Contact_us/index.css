@@ -1,0 +1,45 @@
+/* ContactUs.css */
+.contact-us-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+  }
+  .bg{
+    height: 660px;
+     background: rgba(0, 0, 0, 0.664);
+  }
+  
+  h2 {
+    color: #600d14; /* Adjust the color to match your brand */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #600d14; /* Adjust the color to match your brand */
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #823243; /* Adjust the color to a darker shade for hover effect */
+  }
+  

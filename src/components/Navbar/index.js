@@ -1,9 +1,12 @@
 import React from 'react'
 import About from '../About'
+import Home from '../Home'
 import { NavLink } from 'react-router-dom'
 import './index.css'
 
+
 function Navbar() {
+
   return (
     <div className='navbar'>
         <div className='leftSide'>
