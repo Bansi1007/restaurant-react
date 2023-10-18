@@ -3,6 +3,9 @@ import wallpaper from '../../assets/image/wallpaper.jpg'
 
 import { Link } from 'react-router-dom'; 
 
+
+
+
 function index() {
   return (
     <div>
